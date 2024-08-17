@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+table, th, td {
+    border: 1px solid rgb(83, 83, 83);
+}
+
+table {
+    width: 60%; /* Ajusta este valor según se prefiera */
+    margin: 0 auto 50px auto;
+    margin-bottom: 50px; /* Espacio entre la tabla y el footer */
+}
+
+.header {
+    background-color: #1b3039;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.encabezado-img {
+    background-image: url('img/encabezado Microcontroladores.webp');
+    background-size: cover;
+    background-position: center; /* Centra la imagen de fondo */
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.encabezado-img h1 {
+    font-size: 50px;
+    padding: 15px 0;
+    text-align: center; /* Asegura que el texto esté centrado dentro del div */
+    color: #f0e3e3;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    padding: 20px; /* Espacio alrededor del video si es necesario */
+}
+
+.footer {
+    background: #1A5276;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icon, .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.icon, .menu-icon {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.centrar{
+    text-align: center;
+    padding: 20px;
+}
+.desplazar{
+    margin-left: 40px;
+}
